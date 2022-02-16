@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class RockPaperScissors {
-    //global variables
+
     public static int pC = 0;
     public static int cC = 0;
 
@@ -10,11 +10,7 @@ public class RockPaperScissors {
         int computerWins = 0;
         int playerScore = 0;
         int computerScore = 0;
-        //while(wins<5)
-        //playerChoice
-        //computerChoice
-        //checkWin
-        //random
+
         System.out.println("Welcome to Rock, Paper, Scissors!\nIf you beat the computer 5 times, you score a point!\nIf the computer wins 5 times, it scores a point.\nThe first to 3 points wins the game.\n");
 
         while ((playerScore < 3) && (computerScore < 3)) {
