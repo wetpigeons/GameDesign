@@ -57,7 +57,7 @@ public class RockPaperScissors {
         Scanner sc = new Scanner(System.in);
         char choice = 0;
         try {
-            choice = sc.nextLine().charAt(0);
+            choice = Character.toLowerCase(sc.nextLine().charAt(0));
         } catch (Exception e) {
             System.out.println("Please input a character.");
             return 0;
